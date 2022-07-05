@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  a {
+    @apply p-4 cursor-pointer
+  }
+
+  input {
+    @apply p-4 mb-2 rounded-xl hover:border-[#6a994e] 
+  }
+
+}
